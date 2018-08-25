@@ -5,7 +5,7 @@
 }
 
 header {
-	background-color: #00004C;
+	 background-color:#E6E6E6;
 	padding: 40px;
 	text-align: center;
 }
@@ -13,13 +13,28 @@ header {
 h1 {
 	font-size: 90px;
 	color: white;
+	margin: 0;
+	text-shadow: 0 4px 20px blue;
+	text-transform: uppercase;
+	
+}
+
+h2 {
+	color: blue;
 	
 }
 
 header img {
 	border-radius: 70%;
 	width: 300px;
-	border: 30px solid tomato;
+	border: 30px solid #000066;
+	box-shadow: 0 10px 20px white;
+}
+
+
+p, ol, ul {
+	color: red;
+	
 }
 
 .content {
@@ -40,12 +55,18 @@ p.caption{
 	font-size: 16px;
 	color: lightgrey;
 	font-style: italic;
+	text-align: center;
 }
 
-ul{
+ul, ol{
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	
+}
+
+ol{
+  margin-bottom: 10px;	
 	
 }
 
@@ -72,8 +93,3 @@ footer ul li {
 	margin: 0 5px;
 	
 }
-/* <header>
-	    <img src="sulley-icon.jpeg">
-	    <h1>James P. "Sulley" Sullivan from Monsters Inc.</h1>
-	  </header>
- */
